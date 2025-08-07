@@ -1,4 +1,4 @@
-##Real-Time Emotion Detection Using AI
+##Real-Time Emotion Detection Using AI##
 This project implements a real-time emotion detection system using a webcam feed. It uses OpenCV for face detection and DeepFace for emotion recognition, capable of identifying emotions such as happy, sad, angry, surprised, and more.
 
 ###Features
