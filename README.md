@@ -1,23 +1,49 @@
 Real-Time Emotion Detection Using AI
-This project implements a real-time emotion detection system using a webcam feed. By combining OpenCV for face detection and DeepFace for emotion recognition, it can classify emotions such as happy, sad, angry, surprised, and more.
+This project implements a real-time emotion detection system using a webcam feed. It uses OpenCV for face detection and DeepFace for emotion recognition, capable of identifying emotions such as happy, sad, angry, surprised, and more.
 
 Features
-Real-time emotion detection via webcam.
-Deep learning-based emotion classification using DeepFace.
-Live visualization of predicted emotions on screen.
-Supports multiple emotions including happy, sad, angry, surprise, fear and neutral.
+Real-time emotion detection via webcam
+
+Emotion classification using pre-trained deep learning models
+
+Visual display of detected emotions on live video
+
+Recognizes emotions like happy, sad, angry, surprise, fear, disgust, and neutral
 
 Tech Stack
 Programming Language: Python
-Libraries:
+Libraries Used:
+
 OpenCV
+
 DeepFace
+
 NumPy
-Model: DeepFace's built-in pre-trained models
+
+Model: DeepFace’s built-in pre-trained models
 Face Detection: Haarcascade frontal face classifier
 
-Future Enhancements:
-Add face logging with emotion history
-Store detected emotions in a database
-Create a GUI using Streamlit
-Handle multiple faces with tracking
+Requirements
+Python 3.x
+
+OpenCV
+
+DeepFace
+
+NumPy
+
+Sample requirements.txt:
+
+opencv-python
+deepface
+numpy
+
+Future Enhancements
+Save emotion detection history
+
+Store emotion data in a database
+
+Add a graphical interface using Streamlit
+
+Support for multiple faces with tracking
+
